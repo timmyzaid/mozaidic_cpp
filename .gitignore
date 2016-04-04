@@ -30,6 +30,7 @@
 
 CMakeFiles/*
 Release/*
+Debug/*
 Makefile
 *.jpg
 *.png

@@ -20,10 +20,14 @@ public:
 		return _avgColor;
 	}
 
-	Image generateMosaicFromImages(Image ** images);
+	Image generateMosaicFromImages(Image ** images, size_t numImages);
 
 	cv::Size size() {
 		return _image.size();
+	}
+
+	cv::Mat getImage() {
+		return _image;
 	}
 
 private:
